@@ -1,0 +1,14 @@
+BookRentalAPI/
+├── BookRentalAPI/
+│   ├── Controllers/
+│   ├── Data/
+│   ├── DTOs/
+│   ├── Models/
+│   ├── Services/
+│   ├── Utilities/
+│   ├── appsettings.json
+│   ├── Program.cs
+│   └── BookRentalDbContext.cs
+├── BookRentalAPI.Tests/
+├── .gitignore
+└── README.md
