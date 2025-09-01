@@ -2,6 +2,7 @@ using AutoMapper;
 using BookRentalAPI.DTOs;
 using BookRentalAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using BookRentalAPI.Data;
 
 namespace BookRentalAPI.Services
 {

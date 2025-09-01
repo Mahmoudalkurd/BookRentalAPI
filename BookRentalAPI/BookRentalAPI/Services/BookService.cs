@@ -2,6 +2,7 @@ using AutoMapper;
 using BookRentalAPI.DTOs;
 using BookRentalAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using BookRentalAPI.Data;
 
 namespace BookRentalAPI.Services
 {
@@ -61,7 +62,7 @@ namespace BookRentalAPI.Services
                 .AverageAsync(r => (double?)r.Rating);
 
             var bookDto = _mapper.Map<BookDto>(book);
-            bookDto.AverageRating = averageRating;
+            bookDto.AverageRating = averageRating ?? 0;
             return bookDto;
         }
 

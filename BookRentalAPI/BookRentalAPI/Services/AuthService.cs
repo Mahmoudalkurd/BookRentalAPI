@@ -5,6 +5,7 @@ using BookRentalAPI.DTOs;
 using BookRentalAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using BookRentalAPI.Data;  // Ensure this exists
 
 namespace BookRentalAPI.Services
 {
